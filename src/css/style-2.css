@@ -1,0 +1,66 @@
+.nav {
+    background-color: var(---tertiary-color);
+    display: flex;
+    flex-flow: column;
+    width: 180px;
+    height: 99vh;
+    margin: 1px;
+    border: var(--border);
+}
+
+.nav .nav-top {
+    color: white;
+    background-color: var(--primary-color);
+    border: var(--border);
+}
+
+.nav .nav-top img {
+    width: 150px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.nav .nav-container .profile {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 15px 12px;
+}
+
+.nav .nav-container .profile img {
+    width: 45px;
+    height: 45px;
+}
+
+.nav .nav-container .profile p {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 1px 4px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.nav-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 160px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 12px 5px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    border: var(--border);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -6px rgba(0,0,0,0.82);
+}
+
+.nav-buttons button:nth-last-child(1){
+    margin-top: 270px ;
+}
